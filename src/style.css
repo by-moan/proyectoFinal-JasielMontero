@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Akeila";
+	src: url("/src/assets/fonts/Akeila.ttf");
+}
+
+:root {
+	--TitleColor: rgb(66, 60, 51);
+	--SectionColors: rgba(0, 0, 0, 0.473);
+}
+
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.link {
+	cursor:pointer;
+	filter:opacity(0.6);
+	transition: 0.4s;
+}
+
+.link:hover{
+	filter:opacity(1);
+	transition: 0.4s;
+}
